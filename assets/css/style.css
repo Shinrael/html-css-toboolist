@@ -4,18 +4,64 @@
   box-sizing: border-box;
 }
 
-header h1{
+body{
+  background-color: #F6F8F9;
+}
+
+/*Header*/
+
+h1{
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
 }
 
 header img{
-  vertical-align: -80%;
+  width: 50px;
+  vertical-align: middle;
 }
 
 header{
   padding-left: 20px;
+  margin-bottom: 10px;
+  background-color: white;
 }
 
-main{
-  background-color: #F6F8F9;
+header div{
+  padding-bottom: 10px;
 }
+
+/*Navigatore*/
+
+.pulsanti{
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.pulsanti#azzurro{
+  background-color: #47ADF1;
+  color: white;
+  border: transparent;
+  position: relative;
+  left: -245px;
+}
+
+.pulsanti#bianco{
+  background-color: white;
+  color: grey;
+  border-color: grey;
+  position: relative;
+  left:-245px
+}
+
+.nav{
+  background-color: white;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  }
+
