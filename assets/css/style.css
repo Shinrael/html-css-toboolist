@@ -150,3 +150,29 @@ font-size: 1.5rem;
   width: 80px;
   text-align: center;
 }
+
+.upcoming{
+  padding-top: 20px;
+}
+
+.website{
+  display: inline-block;
+  background-color: #D863A1;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  margin-left: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.sales{
+  display: inline-block;
+  background-color: #B0C926;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  margin-left: 5px;
+  width: 80px;
+  text-align: center;
+}
