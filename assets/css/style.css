@@ -44,24 +44,23 @@ header div{
   color: white;
   border: transparent;
   position: relative;
-  left: -245px;
+  
 }
 
 .pulsanti#bianco{
   background-color: white;
   color: grey;
-  border-color: grey;
+  border: 1px solid grey;
   position: relative;
-  left:-245px
+  
 }
 
 .nav{
   background-color: white;
   max-width: 800px;
-  text-align: center;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin-top: 10px;
   }
 
@@ -97,10 +96,13 @@ font-size: 1.5rem;
 }
 
 .editorial{
+  display: inline-block;
   background-color: #45ABEA;
-  border-radius: 40%;
+  border-radius: 20px;
   padding: 5px;
   color: white;
   margin-left: 5px;
+  width: 80px;
+  text-align: center;
 
 }
