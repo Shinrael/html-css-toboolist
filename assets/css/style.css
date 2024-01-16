@@ -65,3 +65,42 @@ header div{
   margin-top: 10px;
   }
 
+/*Lista*/
+
+li{
+  list-style-type: none;
+}
+
+.lista{
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  }
+
+.freccia{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.new-task{
+font-size: 1.5rem;
+}
+
+.check{
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+.editorial{
+  background-color: #45ABEA;
+  border-radius: 40%;
+  padding: 5px;
+  color: white;
+  margin-left: 5px;
+
+}
